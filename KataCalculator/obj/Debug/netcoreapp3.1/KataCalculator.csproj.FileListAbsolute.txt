@@ -1,0 +1,13 @@
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.exe
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.deps.json
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.runtimeconfig.json
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.runtimeconfig.dev.json
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.dll
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\bin\Debug\netcoreapp3.1\KataCalculator.pdb
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.csprojAssemblyReference.cache
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.AssemblyInfo.cs
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.dll
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.pdb
+C:\Users\Admin\Source\repos\KataCalculator\KataCalculator\obj\Debug\netcoreapp3.1\KataCalculator.genruntimeconfig.cache

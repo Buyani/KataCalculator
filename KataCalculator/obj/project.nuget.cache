@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C7XW79G3WqpaVvPpLZibNgdbbtlQQywHkJlGMi0CRmM23kXZj2PbARrXwFhTmthxkhT7noTa1WcFsG3DyQslGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Source\\repos\\KataCalculator\\KataCalculator\\KataCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
