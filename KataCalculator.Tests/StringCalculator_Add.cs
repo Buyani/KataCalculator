@@ -29,9 +29,26 @@ namespace KataCalculator.Tests
             var results = calculator.Add(inputstring);
             Assert.Equal(expected, results);
         }
+        //[Theory]
+        //[InlineData("//;\n1;4",5)]
+        //public void Returns_Sum_Given_NumbersSepearted_StartingWithDoubleForwrdSlesh_By_Comma_And_NewLine(string inputstring, int expected)
+        //{
+        //    var results = calculator.Add(inputstring);
+        //    Assert.Equal(expected, results);
+        //}
         [Theory]
-        [InlineData("//;\n1;4",5)]
-        public void Returns_Sum_Given_NumbersSepearted_StartingWithDoubleForwrdSlesh_By_Comma_And_NewLine(string inputstring, int expected)
+        [InlineData("-1,2", "Negatives not allowed:-1")]
+        [InlineData("2,-4,3,-5", "Negatives not allowed:-4,-5")]
+        public void Throws_Exception_If_Given_Negative_Numbers(string inputstring, string expected)
+        {
+            Action action = () => calculator.Add(inputstring);
+
+            var ex = Assert.Throws<Exception>(action);
+            Assert.Equal(expected, ex.Message);
+        }
+        [Theory]
+        [InlineData("1001,2", 2)]
+        public void Ignore_Number_Above_1001(string inputstring, int expected)
         {
             var results = calculator.Add(inputstring);
             Assert.Equal(expected, results);
