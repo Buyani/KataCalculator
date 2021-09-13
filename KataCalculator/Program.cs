@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace KataCalculator
 {
@@ -6,7 +7,15 @@ namespace KataCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string number = "//;\n1;3";
+            if(number.StartsWith("//"))
+            {
+                var results = number.Split('\n').Last();
+
+                Console.WriteLine(results.Split(';').Select(p => int.Parse(p)).Sum());
+            }
+          
+            Console.ReadKey();
         }
     }
 }

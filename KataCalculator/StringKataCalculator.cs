@@ -15,9 +15,9 @@ namespace KataCalculator
 
             if(stringnumber.StartsWith("//"))
             {
-
+                var numbers = stringnumber.Split('\n').Last().Split(';');
+                results = numbers.Select(p => int.Parse(p)).Sum();
             }
-
 
             results = stringnumber.Split(',','\n').Select(p => int.Parse(p)).Sum();
             return results;
